@@ -33,7 +33,7 @@
           <mxGeometry height="80" width="100" x="360" y="190" as="geometry" />
         </mxCell>
         <mxCell id="nBaNmYEsphY9-rRL5dVD-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
-          <mxGeometry height="30" width="60" x="450" y="200" as="geometry" />
+          <mxGeometry height="30" width="60" x="460" y="200" as="geometry" />
         </mxCell>
         <mxCell id="nBaNmYEsphY9-rRL5dVD-16" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="nBaNmYEsphY9-rRL5dVD-4">
           <mxGeometry relative="1" as="geometry" />
@@ -66,6 +66,50 @@
         </mxCell>
         <mxCell id="nBaNmYEsphY9-rRL5dVD-29" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="Error: Invalid Amount" vertex="1">
           <mxGeometry height="40" width="100" x="520" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-32" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-34" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Do Total Debits Equal Total Credits?" vertex="1">
+          <mxGeometry height="85" width="110" x="350" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="460" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-40" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="nBaNmYEsphY9-rRL5dVD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-37" parent="1" style="html=1;dashed=1;whiteSpace=wrap;" value="Error: Out of Balance" vertex="1">
+          <mxGeometry height="37.5" width="100" x="520" y="428.75" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-42" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-41" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Save Entry to Database" vertex="1">
+          <mxGeometry height="40" width="130" x="340" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-44" edge="1" parent="1" source="nBaNmYEsphY9-rRL5dVD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="nBaNmYEsphY9-rRL5dVD-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-43" parent="1" style="html=1;dashed=0;whiteSpace=wrap;" value="Clear Form &amp;amp; Refresh Register" vertex="1">
+          <mxGeometry height="40" width="130" x="340" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="nBaNmYEsphY9-rRL5dVD-45" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Post Another Entry?" vertex="1">
+          <mxGeometry height="70" width="100" x="355" y="690" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
